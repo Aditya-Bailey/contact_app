@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+        <Title>User SignUp</Title>
+        <link href="./styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form method="POST" id="formSignup">
+        <div id="container">
+            <div class="a">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" id= "name" placeholder="Enter Username" required>
+    
+                    <label for="uemail"><b>Email</b></label>
+                    <input type="email" id="email" placeholder="Enter email" required>
+    
+                    <label for="contact"><b>Contact</b></label>
+                    <input type="text" id="contact" placeholder="Phone Number" required>
+                    
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="Password" required>
+    
+                    <button id="btn"  type="submit">SignUp</button>
+                    <a href="/">SignIn</a>  
+    
+                </div>
+            </div>
+                
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/javascript/signup.js"></script>
+      
+    </body>
+</html>

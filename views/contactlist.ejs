@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+        <head>
+
+
+                
+
+                <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+                <meta charset="utf-8">
+            <Title>User</Title>
+                        
+ 
+        
+        </head>
+    <body onload="contactList()" >
+        <h1>Contacts</h1>
+            <div id="container">
+                   <div><h1>User</h1></div>
+                
+                    <input type="text" id="name" placeholder="NAME" required>
+                    <input type="text" id="email" placeholder="EMAIL" required>
+                    <input type="text" id="contact" placeholder="CONTACT" required>
+                    <button type="button" id="btn" onClick="saveContact()"> ADD </button>
+                    <button type="button" id="btn" onClick="profile()"> PROFILE </button>
+                    <button type="button" id="btn" onClick="logout()"> LOGOUT </button>
+                    <br>
+                    <br>
+                    <h2> Contact List</h2>
+                    <table  width = "100%">
+                            <thead>
+                               <tr>
+                                  <td><b>NAME</b></td>
+                                  <td><b>EMAIL</b></td>
+                                  <td><b>NUMBER</b></td>
+                                  <td><b>EDIT/UPDATE</b></td>
+                                  <td><b>DELETE</b></td>
+                               </tr>
+                            </thead>
+
+                            <tbody id="contactTableBody">
+
+                                     </tbody>
+                                     </table>
+                                     
+            </div>
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+            <script src="/javascript/contactlist.js"></script> 
+    </body>
+</html>

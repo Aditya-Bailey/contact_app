@@ -1,0 +1,31 @@
+
+#container{
+    background: skyblue;
+    padding: 10px 10px;
+    width: 500px;
+}
+
+input[type=text], input[type=email], input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button{
+    margin: 4px 2px;
+    position: relative;
+    border: none;
+    background: blue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+#signUp:hover{
+    background-color: rgb(48, 48, 245);
+}
